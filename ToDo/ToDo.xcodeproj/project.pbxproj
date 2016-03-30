@@ -16,6 +16,7 @@
 		D770FD671CA9673100DB0D81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D770FD651CA9673100DB0D81 /* LaunchScreen.storyboard */; };
 		D770FD741CA974C600DB0D81 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D770FD731CA974C600DB0D81 /* CoreLocation.framework */; };
 		D78C42111CAC061300F6CA76 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D78C42101CAC061300F6CA76 /* LoginViewController.m */; };
+		D78C42141CAC091C00F6CA76 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D78C42131CAC091C00F6CA76 /* SignUpViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,8 @@
 		D770FD731CA974C600DB0D81 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		D78C420F1CAC061300F6CA76 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		D78C42101CAC061300F6CA76 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		D78C42121CAC091C00F6CA76 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		D78C42131CAC091C00F6CA76 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				D770FD5B1CA9673100DB0D81 /* ViewController.m */,
 				D78C420F1CAC061300F6CA76 /* LoginViewController.h */,
 				D78C42101CAC061300F6CA76 /* LoginViewController.m */,
+				D78C42121CAC091C00F6CA76 /* SignUpViewController.h */,
+				D78C42131CAC091C00F6CA76 /* SignUpViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -203,6 +208,7 @@
 			files = (
 				D770FD5C1CA9673100DB0D81 /* ViewController.m in Sources */,
 				D770FD591CA9673100DB0D81 /* AppDelegate.m in Sources */,
+				D78C42141CAC091C00F6CA76 /* SignUpViewController.m in Sources */,
 				D770FD561CA9673100DB0D81 /* main.m in Sources */,
 				D770FD621CA9673100DB0D81 /* ToDo.xcdatamodeld in Sources */,
 				D78C42111CAC061300F6CA76 /* LoginViewController.m in Sources */,
